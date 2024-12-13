@@ -1,5 +1,5 @@
 import socket
-
+#Conexão
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client.connect(('localhost', 7777))
